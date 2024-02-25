@@ -12,6 +12,10 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px;
 }
 
 .profile-image {
@@ -36,6 +40,9 @@ button {
   color: white;
   padding: 8px 24px;
 }
+button.notifications {
+  margin-left: auto;
+}
 
 a {
   /* this removes the line under our links */
@@ -45,4 +52,9 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
+
